@@ -1,0 +1,186 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Header */
+header{
+    background: linear-gradient(to right, #FFF
+    );
+    color: #0000FF;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+header img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Navigasi */
+nav{
+    background-color: #0000FF;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #ffd700;
+}
+
+/* Main */
+main{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Section */
+section{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color: #0047ab;
+    margin-bottom: 15px;
+    border-left: 6px solid #0047ab;
+    padding-left: 10px;
+}
+
+section h3{
+    color: #003366;
+    margin: 15px 0 10px;
+}
+
+/* Paragraf */
+p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Semua gambar */
+img{
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* Produk */
+#Produk img{
+    width: 180px;
+}
+
+/* Artikel */
+#Artikel img{
+    width: 250px;
+}
+
+/* Galeri */
+.galeri{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.item{
+    text-align: center;
+}
+
+.item img{
+    width: 100%;
+    display: block;
+    margin-top:auto
+}
+/* Kontak */
+#Kontak{
+    background-color: #eef6ff;
+}
+
+/* Footer */
+footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    margin: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+footer img:hover{
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* Garis */
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 15px 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px){
+
+    header h1{
+        font-size: 28px;
+    }
+
+    nav a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #Produk img,
+    #Artikel img,
+    #Galeri img{
+        width: 100%;
+    }
+}
